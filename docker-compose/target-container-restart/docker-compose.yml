@@ -1,0 +1,25 @@
+version: '3.3'
+
+networks:
+  croft:
+    driver: bridge
+
+
+services:
+  api:
+    container_name: fastapi
+    image: server:${API_TAG}
+    ports:
+      - 8000:8000
+    networks:
+      - croft
+    volumes:
+      - C:\company\Tast_Test\docker-compose\target-container-restart\logs:/logs
+  html:
+    container_name: html
+    image: client:${CLIENT_TAG}
+    ports:
+      - 80:80
+    networks:
+      - croft
+    
