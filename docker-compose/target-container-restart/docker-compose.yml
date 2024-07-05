@@ -1,4 +1,4 @@
-version: '3.3'
+version: '3.8'
 
 networks:
   croft:
@@ -22,4 +22,12 @@ services:
       - 80:80
     networks:
       - croft
-    
+  fluentd:
+    container_name: fluentd
+    image: fluentd:${FLUENTD_TAG}
+    volumes:
+      - C:\company\Tast_Test\docker-compose\target-container-restart\logs:/var/logs/
+    ports:
+      - 24224:24224
+    networks:
+      - croft
