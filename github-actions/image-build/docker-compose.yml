@@ -1,0 +1,11 @@
+version: '3.8'
+
+
+services:
+  python:
+    container_name: env-test
+    image: test:2.0
+    environment:
+      - INPUT_NUM=10000
+
+  
