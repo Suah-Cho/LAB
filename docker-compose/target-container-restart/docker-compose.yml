@@ -1,0 +1,33 @@
+version: '3.8'
+
+networks:
+  croft:
+    driver: bridge
+
+
+services:
+  api:
+    container_name: fastapi
+    image: server:${API_TAG}
+    ports:
+      - 8000:8000
+    networks:
+      - croft
+    volumes:
+      - C:\company\Tast_Test\docker-compose\target-container-restart\logs:/logs
+  html:
+    container_name: html
+    image: client:${CLIENT_TAG}
+    ports:
+      - 80:80
+    networks:
+      - croft
+  fluentd:
+    container_name: fluentd
+    image: fluentd:${FLUENTD_TAG}
+    volumes:
+      - C:\company\Tast_Test\docker-compose\target-container-restart\logs:/var/logs/
+    ports:
+      - 24224:24224
+    networks:
+      - croft

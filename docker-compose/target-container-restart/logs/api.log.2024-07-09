@@ -1,0 +1,116 @@
+2024-07-09 07:22:44,594 - uvicorn.error - INFO - Shutting down
+2024-07-09 07:22:44,765 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-07-09 07:22:44,793 - uvicorn.error - INFO - Application shutdown complete.
+2024-07-09 07:22:44,799 - uvicorn.error - INFO - Finished server process [1]
+2024-07-09 07:22:47,624 - uvicorn.error - INFO - Started server process [1]
+2024-07-09 07:22:47,625 - uvicorn.error - INFO - Waiting for application startup.
+2024-07-09 07:22:47,627 - uvicorn.error - INFO - Application startup complete.
+2024-07-09 07:22:47,630 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-07-09 07:22:59,489 - uvicorn.access - INFO - 172.21.0.1:43374 - "GET /error HTTP/1.1" 200
+2024-07-09 07:23:53,698 - uvicorn.error - INFO - Shutting down
+2024-07-09 07:23:53,800 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-07-09 07:23:53,802 - uvicorn.error - INFO - Application shutdown complete.
+2024-07-09 07:23:53,803 - uvicorn.error - INFO - Finished server process [1]
+2024-07-09 07:23:55,227 - uvicorn.error - INFO - Started server process [1]
+2024-07-09 07:23:55,229 - uvicorn.error - INFO - Waiting for application startup.
+2024-07-09 07:23:55,230 - uvicorn.error - INFO - Application startup complete.
+2024-07-09 07:23:55,233 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-07-09 07:24:10,791 - uvicorn.access - INFO - 172.21.0.1:52162 - "GET /error HTTP/1.1" 200
+2024-07-09 07:28:46,640 - uvicorn.error - INFO - Shutting down
+2024-07-09 07:28:46,742 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-07-09 07:28:46,745 - uvicorn.error - INFO - Application shutdown complete.
+2024-07-09 07:28:46,747 - uvicorn.error - INFO - Finished server process [1]
+2024-07-09 07:28:48,369 - uvicorn.error - INFO - Started server process [1]
+2024-07-09 07:28:48,372 - uvicorn.error - INFO - Waiting for application startup.
+2024-07-09 07:28:48,374 - uvicorn.error - INFO - Application startup complete.
+2024-07-09 07:28:48,376 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-07-09 07:28:56,371 - uvicorn.access - INFO - 172.21.0.1:44852 - "GET /error HTTP/1.1" 500
+2024-07-09 07:31:11,804 - uvicorn.access - INFO - 172.21.0.1:43446 - "GET /error HTTP/1.1" 500
+2024-07-09 07:44:58,882 - uvicorn.error - INFO - Shutting down
+2024-07-09 07:44:58,984 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-07-09 07:44:58,986 - uvicorn.error - INFO - Application shutdown complete.
+2024-07-09 07:44:58,987 - uvicorn.error - INFO - Finished server process [1]
+2024-07-09 07:45:54,345 - uvicorn.error - INFO - Started server process [1]
+2024-07-09 07:45:54,347 - uvicorn.error - INFO - Waiting for application startup.
+2024-07-09 07:45:54,348 - uvicorn.error - INFO - Application startup complete.
+2024-07-09 07:45:54,351 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-07-09 07:46:02,194 - uvicorn.access - INFO - 172.21.0.1:34272 - "GET /error HTTP/1.1" 500
+2024-07-09 07:48:50,088 - uvicorn.error - INFO - Shutting down
+2024-07-09 07:48:50,197 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-07-09 07:48:50,199 - uvicorn.error - INFO - Application shutdown complete.
+2024-07-09 07:48:50,201 - uvicorn.error - INFO - Finished server process [1]
+2024-07-09 07:48:51,942 - uvicorn.error - INFO - Started server process [1]
+2024-07-09 07:48:51,944 - uvicorn.error - INFO - Waiting for application startup.
+2024-07-09 07:48:51,946 - uvicorn.error - INFO - Application startup complete.
+2024-07-09 07:48:51,949 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-07-09 07:48:57,789 - root - ERROR - !!!Error connecting to database!!! : 
+2024-07-09 07:48:57,790 - uvicorn.access - INFO - 172.21.0.1:55202 - "GET /error HTTP/1.1" 500
+2024-07-09 07:51:01,783 - uvicorn.error - INFO - Shutting down
+2024-07-09 07:51:01,885 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-07-09 07:51:01,886 - uvicorn.error - INFO - Application shutdown complete.
+2024-07-09 07:51:01,887 - uvicorn.error - INFO - Finished server process [1]
+2024-07-09 07:51:03,602 - uvicorn.error - INFO - Started server process [1]
+2024-07-09 07:51:03,604 - uvicorn.error - INFO - Waiting for application startup.
+2024-07-09 07:51:03,606 - uvicorn.error - INFO - Application startup complete.
+2024-07-09 07:51:03,609 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-07-09 07:51:09,651 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-09 07:51:09,652 - uvicorn.access - INFO - 172.21.0.1:42378 - "GET /error HTTP/1.1" 500
+2024-07-09 07:56:22,567 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-09 07:56:22,570 - uvicorn.access - INFO - 172.21.0.1:44094 - "GET /error HTTP/1.1" 500
+2024-07-09 08:00:06,944 - uvicorn.error - INFO - Shutting down
+2024-07-09 08:00:07,046 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-07-09 08:00:07,048 - uvicorn.error - INFO - Application shutdown complete.
+2024-07-09 08:00:07,049 - uvicorn.error - INFO - Finished server process [1]
+2024-07-09 08:02:07,818 - uvicorn.error - INFO - Started server process [1]
+2024-07-09 08:02:07,820 - uvicorn.error - INFO - Waiting for application startup.
+2024-07-09 08:02:07,822 - uvicorn.error - INFO - Application startup complete.
+2024-07-09 08:02:07,825 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-07-09 08:06:09,285 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-09 08:06:09,287 - uvicorn.access - INFO - 172.21.0.1:35758 - "GET /error HTTP/1.1" 500
+2024-07-09 08:07:36,618 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-09 08:07:36,620 - uvicorn.access - INFO - 172.21.0.1:57046 - "GET /error HTTP/1.1" 500
+2024-07-09 08:10:57,000 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-09 08:10:57,001 - uvicorn.access - INFO - 172.21.0.1:34794 - "GET /error HTTP/1.1" 500
+2024-07-09 23:26:09,621 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-09 23:26:09,628 - uvicorn.access - INFO - 172.21.0.1:55472 - "GET /error HTTP/1.1" 500
+2024-07-09 23:29:23,047 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-09 23:29:23,050 - uvicorn.access - INFO - 172.21.0.1:49388 - "GET /error HTTP/1.1" 500
+2024-07-09 23:49:24,737 - uvicorn.error - INFO - Shutting down
+2024-07-09 23:49:24,844 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-07-09 23:49:24,856 - uvicorn.error - INFO - Application shutdown complete.
+2024-07-09 23:49:24,863 - uvicorn.error - INFO - Finished server process [1]
+2024-07-09 23:50:12,958 - uvicorn.error - INFO - Started server process [1]
+2024-07-09 23:50:12,960 - uvicorn.error - INFO - Waiting for application startup.
+2024-07-09 23:50:12,962 - uvicorn.error - INFO - Application startup complete.
+2024-07-09 23:50:12,965 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-07-09 23:50:21,582 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-09 23:50:21,585 - root - ERROR - Traceback: Traceback (most recent call last):
+  File "/app.py", line 18, in read_error
+    psycopg2.connect('dbname=test user=postgres password=postgres host=postgres')
+  File "/usr/local/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Name or service not known
+
+
+2024-07-09 23:50:21,586 - root - ERROR - HELLO WORLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2024-07-09 23:50:21,587 - uvicorn.access - INFO - 172.21.0.1:53202 - "GET /error HTTP/1.1" 500
+2024-07-09 23:58:16,555 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-09 23:58:16,558 - root - ERROR - Traceback: Traceback (most recent call last):
+  File "/app.py", line 18, in read_error
+    psycopg2.connect('dbname=test user=postgres password=postgres host=postgres')
+  File "/usr/local/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Name or service not known
+
+
+2024-07-09 23:58:16,560 - root - ERROR - HELLO WORLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2024-07-09 23:58:16,562 - uvicorn.access - INFO - 172.21.0.1:54816 - "GET /error HTTP/1.1" 500

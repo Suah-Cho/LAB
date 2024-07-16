@@ -1,0 +1,139 @@
+2024-07-05 02:55:26,882 - uvicorn.error - INFO - Started server process [1]
+2024-07-05 02:55:26,884 - uvicorn.error - INFO - Waiting for application startup.
+2024-07-05 02:55:26,885 - uvicorn.error - INFO - Application startup complete.
+2024-07-05 02:55:26,889 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-07-05 03:03:51,662 - uvicorn.error - INFO - Shutting down
+2024-07-05 03:03:51,764 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-07-05 03:03:51,771 - uvicorn.error - INFO - Application shutdown complete.
+2024-07-05 03:03:51,772 - uvicorn.error - INFO - Finished server process [1]
+2024-07-05 03:03:53,320 - uvicorn.error - INFO - Started server process [1]
+2024-07-05 03:03:53,322 - uvicorn.error - INFO - Waiting for application startup.
+2024-07-05 03:03:53,324 - uvicorn.error - INFO - Application startup complete.
+2024-07-05 03:03:53,328 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-07-05 05:37:24,005 - uvicorn.error - INFO - Shutting down
+2024-07-05 05:37:24,117 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-07-05 05:37:24,124 - uvicorn.error - INFO - Application shutdown complete.
+2024-07-05 05:37:24,126 - uvicorn.error - INFO - Finished server process [1]
+2024-07-05 05:37:26,388 - uvicorn.error - INFO - Started server process [1]
+2024-07-05 05:37:26,391 - uvicorn.error - INFO - Waiting for application startup.
+2024-07-05 05:37:26,392 - uvicorn.error - INFO - Application startup complete.
+2024-07-05 05:37:26,396 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-07-05 06:01:28,129 - root - INFO - API root endpoint called
+2024-07-05 06:01:28,132 - uvicorn.access - INFO - 172.20.0.1:60578 - "GET / HTTP/1.1" 200
+2024-07-05 06:01:36,298 - root - ERROR - Error connecting to database
+2024-07-05 06:01:36,299 - uvicorn.access - INFO - 172.20.0.1:60578 - "GET /error HTTP/1.1" 200
+2024-07-05 06:08:57,951 - uvicorn.error - INFO - Shutting down
+2024-07-05 06:08:58,053 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-07-05 06:08:58,054 - uvicorn.error - INFO - Application shutdown complete.
+2024-07-05 06:08:58,056 - uvicorn.error - INFO - Finished server process [1]
+2024-07-05 06:10:15,852 - uvicorn.error - INFO - Started server process [1]
+2024-07-05 06:10:15,854 - uvicorn.error - INFO - Waiting for application startup.
+2024-07-05 06:10:15,855 - uvicorn.error - INFO - Application startup complete.
+2024-07-05 06:10:15,858 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-07-05 06:10:52,825 - root - INFO - API root endpoint called
+2024-07-05 06:10:52,827 - uvicorn.access - INFO - 172.20.0.1:47426 - "GET / HTTP/1.1" 200
+2024-07-05 06:24:25,538 - uvicorn.error - INFO - Shutting down
+2024-07-05 06:24:25,640 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-07-05 06:24:25,643 - uvicorn.error - INFO - Application shutdown complete.
+2024-07-05 06:24:25,644 - uvicorn.error - INFO - Finished server process [1]
+2024-07-05 06:24:39,430 - uvicorn.error - INFO - Started server process [1]
+2024-07-05 06:24:39,431 - uvicorn.error - INFO - Waiting for application startup.
+2024-07-05 06:24:39,433 - uvicorn.error - INFO - Application startup complete.
+2024-07-05 06:24:39,436 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-07-05 06:27:35,484 - uvicorn.error - INFO - Shutting down
+2024-07-05 06:27:35,586 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-07-05 06:27:35,588 - uvicorn.error - INFO - Application shutdown complete.
+2024-07-05 06:27:35,589 - uvicorn.error - INFO - Finished server process [1]
+2024-07-05 06:30:43,267 - uvicorn.error - INFO - Started server process [1]
+2024-07-05 06:30:43,269 - uvicorn.error - INFO - Waiting for application startup.
+2024-07-05 06:30:43,270 - uvicorn.error - INFO - Application startup complete.
+2024-07-05 06:30:43,273 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-07-05 06:30:45,293 - root - INFO - API root endpoint called
+2024-07-05 06:30:45,304 - uvicorn.access - INFO - 172.21.0.1:37348 - "GET / HTTP/1.1" 200
+2024-07-05 06:30:50,997 - root - ERROR - An error occurred:
+Traceback (most recent call last):
+  File "/app.py", line 34, in root
+    function_c()
+  File "/app.py", line 29, in function_c
+    function_b()
+  File "/app.py", line 26, in function_b
+    function_a()
+  File "/app.py", line 23, in function_a
+    raise ValueError("This is an error in function_a")
+ValueError: This is an error in function_a
+
+2024-07-05 06:30:50,998 - uvicorn.access - INFO - 172.21.0.1:37354 - "GET /error2 HTTP/1.1" 500
+2024-07-05 06:30:51,991 - root - ERROR - Error connecting to database
+2024-07-05 06:42:54,955 - root - ERROR - An error occurred:
+Traceback (most recent call last):
+  File "/app.py", line 34, in root
+    function_c()
+  File "/app.py", line 29, in function_c
+    function_b()
+  File "/app.py", line 26, in function_b
+    function_a()
+  File "/app.py", line 23, in function_a
+    raise ValueError("This is an error in function_a")
+ValueError: This is an error in function_a
+
+2024-07-05 06:42:54,958 - uvicorn.access - INFO - 172.21.0.1:43668 - "GET /error2 HTTP/1.1" 500
+2024-07-05 06:55:19,135 - root - ERROR - An error occurred:
+Traceback (most recent call last):
+  File "/app.py", line 34, in root
+    function_c()
+  File "/app.py", line 29, in function_c
+    function_b()
+  File "/app.py", line 26, in function_b
+    function_a()
+  File "/app.py", line 23, in function_a
+    raise ValueError("This is an error in function_a")
+ValueError: This is an error in function_a
+
+2024-07-05 06:55:19,137 - uvicorn.access - INFO - 172.21.0.1:32956 - "GET /error2 HTTP/1.1" 500
+2024-07-05 06:57:11,700 - root - ERROR - An error occurred:
+Traceback (most recent call last):
+  File "/app.py", line 34, in root
+    function_c()
+  File "/app.py", line 29, in function_c
+    function_b()
+  File "/app.py", line 26, in function_b
+    function_a()
+  File "/app.py", line 23, in function_a
+    raise ValueError("This is an error in function_a")
+ValueError: This is an error in function_a
+
+2024-07-05 06:57:11,701 - uvicorn.access - INFO - 172.21.0.1:41738 - "GET /error2 HTTP/1.1" 500
+2024-07-05 08:28:16,017 - uvicorn.error - INFO - Shutting down
+2024-07-05 08:28:16,130 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-07-05 08:28:16,136 - uvicorn.error - INFO - Application shutdown complete.
+2024-07-05 08:28:16,138 - uvicorn.error - INFO - Finished server process [1]
+2024-07-05 08:28:18,461 - uvicorn.error - INFO - Started server process [1]
+2024-07-05 08:28:18,463 - uvicorn.error - INFO - Waiting for application startup.
+2024-07-05 08:28:18,464 - uvicorn.error - INFO - Application startup complete.
+2024-07-05 08:28:18,468 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-07-05 11:33:38,066 - root - ERROR - This is an error in function_a
+2024-07-05 11:33:38,068 - uvicorn.access - INFO - 172.21.0.1:46364 - "GET /error2 HTTP/1.1" 500
+2024-07-05 11:33:58,282 - root - ERROR - This is an error in function_a
+2024-07-05 11:33:58,284 - uvicorn.access - INFO - 172.21.0.1:46380 - "GET /error2 HTTP/1.1" 500
+2024-07-05 11:34:12,651 - root - ERROR - This is an error in function_a
+2024-07-05 11:34:12,653 - uvicorn.access - INFO - 172.21.0.1:44890 - "GET /error2 HTTP/1.1" 500
+2024-07-05 11:42:09,994 - uvicorn.error - INFO - Shutting down
+2024-07-05 11:42:10,096 - uvicorn.error - INFO - Waiting for application shutdown.
+2024-07-05 11:42:10,099 - uvicorn.error - INFO - Application shutdown complete.
+2024-07-05 11:42:10,100 - uvicorn.error - INFO - Finished server process [1]
+2024-07-05 11:42:11,631 - uvicorn.error - INFO - Started server process [1]
+2024-07-05 11:42:11,633 - uvicorn.error - INFO - Waiting for application startup.
+2024-07-05 11:42:11,634 - uvicorn.error - INFO - Application startup complete.
+2024-07-05 11:42:11,636 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-07-05 11:42:29,172 - root - ERROR - This is an error in function_a
+ what the hell is going on?
+ I don't know!
+2024-07-05 11:42:29,173 - uvicorn.access - INFO - 172.21.0.1:57768 - "GET /error2 HTTP/1.1" 500
+2024-07-05 11:43:01,275 - root - ERROR - This is an error in function_a
+ what the hell is going on?
+ I don't know!
+2024-07-05 11:43:01,277 - uvicorn.access - INFO - 172.21.0.1:57780 - "GET /error2 HTTP/1.1" 500
+2024-07-05 11:44:54,189 - root - ERROR - This is an error in function_a
+ what the hell is going on?
+ I don't know!
+2024-07-05 11:44:54,190 - uvicorn.access - INFO - 172.21.0.1:37502 - "GET /error2 HTTP/1.1" 500

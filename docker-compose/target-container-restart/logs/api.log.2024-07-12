@@ -1,0 +1,28 @@
+2024-07-12 00:31:41,987 - uvicorn.error - INFO - Started server process [1]
+2024-07-12 00:31:41,993 - uvicorn.error - INFO - Waiting for application startup.
+2024-07-12 00:31:41,994 - uvicorn.error - INFO - Application startup complete.
+2024-07-12 00:31:41,996 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2024-07-12 00:33:14,569 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-12 00:33:14,572 - root - ERROR - Traceback: Traceback (most recent call last):
+  File "/app.py", line 18, in read_error
+    psycopg2.connect('dbname=test user=postgres password=postgres host=postgres')
+  File "/usr/local/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Name or service not known
+
+
+2024-07-12 00:33:14,573 - root - ERROR - HELLO WORLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2024-07-12 00:33:14,574 - uvicorn.access - INFO - 172.21.0.1:55306 - "GET /error HTTP/1.1" 500
+2024-07-12 00:35:03,634 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-12 00:35:03,637 - root - ERROR - Traceback: Traceback (most recent call last):
+  File "/app.py", line 18, in read_error
+    psycopg2.connect('dbname=test user=postgres password=postgres host=postgres')
+  File "/usr/local/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Name or service not known
+
+
+2024-07-12 00:35:03,639 - root - ERROR - HELLO WORLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2024-07-12 00:35:03,640 - uvicorn.access - INFO - 172.21.0.1:55098 - "GET /error HTTP/1.1" 500

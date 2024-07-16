@@ -1,0 +1,228 @@
+2024-07-10 00:15:05,857 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-10 00:15:05,865 - root - ERROR - Traceback: Traceback (most recent call last):
+  File "/app.py", line 18, in read_error
+    psycopg2.connect('dbname=test user=postgres password=postgres host=postgres')
+  File "/usr/local/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Name or service not known
+
+
+2024-07-10 00:15:05,866 - root - ERROR - HELLO WORLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2024-07-10 00:15:05,868 - uvicorn.access - INFO - 172.21.0.1:56414 - "GET /error HTTP/1.1" 500
+2024-07-10 00:17:56,822 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-10 00:17:56,824 - root - ERROR - Traceback: Traceback (most recent call last):
+  File "/app.py", line 18, in read_error
+    psycopg2.connect('dbname=test user=postgres password=postgres host=postgres')
+  File "/usr/local/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Name or service not known
+
+
+2024-07-10 00:17:56,824 - root - ERROR - HELLO WORLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2024-07-10 00:17:56,826 - uvicorn.access - INFO - 172.21.0.1:47106 - "GET /error HTTP/1.1" 500
+2024-07-10 00:24:01,744 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-10 00:24:01,746 - root - ERROR - Traceback: Traceback (most recent call last):
+  File "/app.py", line 18, in read_error
+    psycopg2.connect('dbname=test user=postgres password=postgres host=postgres')
+  File "/usr/local/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Name or service not known
+
+
+2024-07-10 00:24:01,747 - root - ERROR - HELLO WORLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2024-07-10 00:24:01,748 - uvicorn.access - INFO - 172.21.0.1:49960 - "GET /error HTTP/1.1" 500
+2024-07-10 00:24:55,455 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-10 00:24:55,458 - root - ERROR - Traceback: Traceback (most recent call last):
+  File "/app.py", line 18, in read_error
+    psycopg2.connect('dbname=test user=postgres password=postgres host=postgres')
+  File "/usr/local/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Name or service not known
+
+
+2024-07-10 00:24:55,459 - root - ERROR - HELLO WORLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2024-07-10 00:24:55,461 - uvicorn.access - INFO - 172.21.0.1:36582 - "GET /error HTTP/1.1" 500
+2024-07-10 00:27:07,252 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-10 00:27:07,254 - root - ERROR - Traceback: Traceback (most recent call last):
+  File "/app.py", line 18, in read_error
+    psycopg2.connect('dbname=test user=postgres password=postgres host=postgres')
+  File "/usr/local/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Name or service not known
+
+
+2024-07-10 00:27:07,256 - root - ERROR - HELLO WORLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2024-07-10 00:27:07,257 - uvicorn.access - INFO - 172.21.0.1:57182 - "GET /error HTTP/1.1" 500
+2024-07-10 00:29:04,906 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-10 00:29:04,908 - root - ERROR - Traceback: Traceback (most recent call last):
+  File "/app.py", line 18, in read_error
+    psycopg2.connect('dbname=test user=postgres password=postgres host=postgres')
+  File "/usr/local/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Name or service not known
+
+
+2024-07-10 00:29:04,909 - root - ERROR - HELLO WORLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2024-07-10 00:29:04,910 - uvicorn.access - INFO - 172.21.0.1:48270 - "GET /error HTTP/1.1" 500
+2024-07-10 00:31:23,636 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-10 00:31:23,637 - root - ERROR - Traceback: Traceback (most recent call last):
+  File "/app.py", line 18, in read_error
+    psycopg2.connect('dbname=test user=postgres password=postgres host=postgres')
+  File "/usr/local/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Name or service not known
+
+
+2024-07-10 00:31:23,639 - root - ERROR - HELLO WORLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2024-07-10 00:31:23,640 - uvicorn.access - INFO - 172.21.0.1:44440 - "GET /error HTTP/1.1" 500
+2024-07-10 00:36:00,644 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-10 00:36:00,647 - root - ERROR - Traceback: Traceback (most recent call last):
+  File "/app.py", line 18, in read_error
+    psycopg2.connect('dbname=test user=postgres password=postgres host=postgres')
+  File "/usr/local/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Name or service not known
+
+
+2024-07-10 00:36:00,648 - root - ERROR - HELLO WORLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2024-07-10 00:36:00,650 - uvicorn.access - INFO - 172.21.0.1:37982 - "GET /error HTTP/1.1" 500
+2024-07-10 00:38:38,034 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-10 00:38:38,037 - root - ERROR - Traceback: Traceback (most recent call last):
+  File "/app.py", line 18, in read_error
+    psycopg2.connect('dbname=test user=postgres password=postgres host=postgres')
+  File "/usr/local/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Name or service not known
+
+
+2024-07-10 00:38:38,037 - root - ERROR - HELLO WORLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2024-07-10 00:38:38,039 - uvicorn.access - INFO - 172.21.0.1:54616 - "GET /error HTTP/1.1" 500
+2024-07-10 00:42:05,101 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-10 00:42:05,103 - root - ERROR - Traceback: Traceback (most recent call last):
+  File "/app.py", line 18, in read_error
+    psycopg2.connect('dbname=test user=postgres password=postgres host=postgres')
+  File "/usr/local/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Name or service not known
+
+
+2024-07-10 00:42:05,104 - root - ERROR - HELLO WORLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2024-07-10 00:42:05,106 - uvicorn.access - INFO - 172.21.0.1:57630 - "GET /error HTTP/1.1" 500
+2024-07-10 00:43:49,616 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-10 00:43:49,619 - root - ERROR - Traceback: Traceback (most recent call last):
+  File "/app.py", line 18, in read_error
+    psycopg2.connect('dbname=test user=postgres password=postgres host=postgres')
+  File "/usr/local/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Name or service not known
+
+
+2024-07-10 00:43:49,621 - root - ERROR - HELLO WORLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2024-07-10 00:43:49,622 - uvicorn.access - INFO - 172.21.0.1:60280 - "GET /error HTTP/1.1" 500
+2024-07-10 00:47:51,252 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-10 00:47:51,255 - root - ERROR - Traceback: Traceback (most recent call last):
+  File "/app.py", line 18, in read_error
+    psycopg2.connect('dbname=test user=postgres password=postgres host=postgres')
+  File "/usr/local/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Name or service not known
+
+
+2024-07-10 00:47:51,256 - root - ERROR - HELLO WORLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2024-07-10 00:47:51,257 - uvicorn.access - INFO - 172.21.0.1:48744 - "GET /error HTTP/1.1" 500
+2024-07-10 00:49:38,676 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-10 00:49:38,678 - root - ERROR - Traceback: Traceback (most recent call last):
+  File "/app.py", line 18, in read_error
+    psycopg2.connect('dbname=test user=postgres password=postgres host=postgres')
+  File "/usr/local/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Name or service not known
+
+
+2024-07-10 00:49:38,679 - root - ERROR - HELLO WORLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2024-07-10 00:49:38,687 - uvicorn.access - INFO - 172.21.0.1:36860 - "GET /error HTTP/1.1" 500
+2024-07-10 00:51:40,464 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-10 00:51:40,467 - root - ERROR - Traceback: Traceback (most recent call last):
+  File "/app.py", line 18, in read_error
+    psycopg2.connect('dbname=test user=postgres password=postgres host=postgres')
+  File "/usr/local/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Name or service not known
+
+
+2024-07-10 00:51:40,469 - root - ERROR - HELLO WORLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2024-07-10 00:51:40,471 - uvicorn.access - INFO - 172.21.0.1:56912 - "GET /error HTTP/1.1" 500
+2024-07-10 00:53:15,762 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-10 00:53:15,763 - root - ERROR - Traceback: Traceback (most recent call last):
+  File "/app.py", line 18, in read_error
+    psycopg2.connect('dbname=test user=postgres password=postgres host=postgres')
+  File "/usr/local/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Name or service not known
+
+
+2024-07-10 00:53:15,764 - root - ERROR - HELLO WORLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2024-07-10 00:53:15,765 - uvicorn.access - INFO - 172.21.0.1:36892 - "GET /error HTTP/1.1" 500
+2024-07-10 00:54:06,010 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-10 00:54:06,012 - root - ERROR - Traceback: Traceback (most recent call last):
+  File "/app.py", line 18, in read_error
+    psycopg2.connect('dbname=test user=postgres password=postgres host=postgres')
+  File "/usr/local/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Name or service not known
+
+
+2024-07-10 00:54:06,014 - root - ERROR - HELLO WORLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2024-07-10 00:54:06,016 - uvicorn.access - INFO - 172.21.0.1:41328 - "GET /error HTTP/1.1" 500
+2024-07-10 00:54:49,166 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-10 00:54:49,169 - root - ERROR - Traceback: Traceback (most recent call last):
+  File "/app.py", line 18, in read_error
+    psycopg2.connect('dbname=test user=postgres password=postgres host=postgres')
+  File "/usr/local/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Name or service not known
+
+
+2024-07-10 00:54:49,171 - root - ERROR - HELLO WORLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2024-07-10 00:54:49,173 - uvicorn.access - INFO - 172.21.0.1:39926 - "GET /error HTTP/1.1" 500
+2024-07-10 00:56:04,656 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-10 00:56:04,658 - root - ERROR - Traceback: Traceback (most recent call last):
+  File "/app.py", line 18, in read_error
+    psycopg2.connect('dbname=test user=postgres password=postgres host=postgres')
+  File "/usr/local/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Name or service not known
+
+
+2024-07-10 00:56:04,658 - root - ERROR - HELLO WORLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2024-07-10 00:56:04,660 - uvicorn.access - INFO - 172.21.0.1:46720 - "GET /error HTTP/1.1" 500
+2024-07-10 00:59:03,746 - root - ERROR - !!!Error connecting to database!!! : could not translate host name "postgres" to address: Name or service not known
+
+2024-07-10 00:59:03,750 - root - ERROR - Traceback: Traceback (most recent call last):
+  File "/app.py", line 18, in read_error
+    psycopg2.connect('dbname=test user=postgres password=postgres host=postgres')
+  File "/usr/local/lib/python3.9/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Name or service not known
+
+
+2024-07-10 00:59:03,751 - root - ERROR - HELLO WORLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+2024-07-10 00:59:03,752 - uvicorn.access - INFO - 172.21.0.1:52594 - "GET /error HTTP/1.1" 500
