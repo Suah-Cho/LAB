@@ -1,4 +1,5 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.responses import JSONResponse
 import logging
 import psycopg2
 import traceback
@@ -16,23 +17,8 @@ def read_error():
     try:
         psycopg2.connect('dbname=test user=postgres password=postgres host=postgres')
     except Exception as e:
-        logging.error('Error connecting to database')
-        return {'error': str(e)}
+        logging.error(f'!!!Error connecting to database!!! : {e}')
+        logging.error('Traceback: {}'.format(traceback.format_exc()))
+        logging.error("HELLO WORLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD")
+        return JSONResponse(status_code=500, content={'message': '!Error connecting to database!'})
     
-def function_a():
-    raise ValueError("This is an error in function_a")
-
-def function_b():
-    function_a()
-
-def function_c():
-    function_b()
-
-@app.get("/error2")
-async def root():
-    try:
-        function_c()
-    except Exception as e:
-        error_message = "An error occurred:\n" + "".join(traceback.format_exc())
-        logging.error(error_message)
-        raise HTTPException(status_code=500, detail=error_message)
