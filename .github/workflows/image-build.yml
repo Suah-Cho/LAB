@@ -27,5 +27,5 @@ jobs:
             
             - name: Build and Push Image to ACR
               run: |
-                  docker build . -t ${{ secrets.ACR_LOGIN_SERVER }}/test:${{ github.sha }} -f github-actions/image-build/Dockerfile
+                  docker build -t ${{ secrets.ACR_LOGIN_SERVER }}/test:${{ github.sha }} -f github-actions/image-build/Dockerfile --platform linux/amd64 .
                   docker push ${{ secrets.ACR_LOGIN_SERVER }}/test:${{ github.sha }}
